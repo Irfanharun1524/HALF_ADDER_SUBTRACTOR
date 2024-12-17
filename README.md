@@ -1,4 +1,4 @@
-![Screenshot 2024-12-17 142916](https://github.com/user-attachments/assets/984df979-77ba-4602-b331-31487d263f5b)# HALF_ADDER_SUBTRACTOR
+# HALF_ADDER_SUBTRACTOR
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
@@ -61,6 +61,8 @@ Developed by: ROSHINI A /  RegisterNumber: 24002364
 
 
 **Output/TIMING Waveform**
+![Screenshot 2024-12-17 142916](https://github.com/user-attachments/assets/08678c4c-afbf-4c77-a37b-55deb7a77dfd)
+![Screenshot 2024-12-17 142928](https://github.com/user-attachments/assets/f73dd3e7-7baa-4db4-baa7-9fa8f744c903)
 
 
 **Result:**
