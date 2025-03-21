@@ -29,11 +29,14 @@ The half-subtractor is a combinational circuit which is used to perform subtract
 Diff = A’B+AB’ =A ⊕ B
 Borrow = A’B
 
- ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
+![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
 
 Figure -02 HALF Subtractor
 
 **Truthtable**
+
+![Screenshot 2025-03-21 143153](https://github.com/user-attachments/assets/733fd70c-47f2-45d4-8302-741201b08386)
+
 
 **Procedure**
 
@@ -50,12 +53,33 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
+    module EX2(A, B, S, C, Diff, Borrow);
+    input A, B;
+    output S, C, Diff, Borrow;
+
+    wire A_not;
+
+    xor (S, A, B);
+    and (C, A, B);
+
+    not (A_not, A);
+    xor (Diff, A, B);
+    and (Borrow, A_not, B);
+
+    endmodule
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by:Irfan H RegisterNumber:212224040122
 
 **RTL Schematic**
 
+![Screenshot 2025-03-21 141949](https://github.com/user-attachments/assets/9fc8edfd-968a-4f10-abe9-2189c2f818c1)
+
 **Output/TIMING Waveform**
 
+![Screenshot 2025-03-21 143438](https://github.com/user-attachments/assets/19416e51-2d62-427f-a6f5-29da62e3d818)
+
 **Result:**
+
+Thus the output is verified
+ 
